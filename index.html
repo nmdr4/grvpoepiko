@@ -2,203 +2,71 @@
 <html>
   <head>
     <title>GRuPo EpiKo</title>
-  <meta charset="utf-8"/>
-  <meta name="viewport" content="width=device-width,initial-scale=1"/>
-  <meta name="robots" content="index,follow"/>
-  <meta name="generator" content="GrapesJS Studio"/>
-  <meta name="description" content="EpiKos Zitio"/>
-  <meta name="keywords" content="fbi.gov cia.gov gov fbi cia"/>
-  <meta property="og:title" content="GRuPo EpiKo"/>
-  <meta property="og:description" content="EpiKos Zitio"/>
-  <meta property="og:image" content="https://cdn.grapesjs.com/workspaces/cmg1jfq7v0dmwjsx3dk0eokuk/assets/dd25c46c-f619-4fa2-b9cd-8c671ac51264__epiko.png"/>
-  <link rel="icon" href="https://cdn.grapesjs.com/workspaces/cmg1jfq7v0dmwjsx3dk0eokuk/assets/dd25c46c-f619-4fa2-b9cd-8c671ac51264__epiko.png"/>
-  <style data-project-fonts="true">
-@font-face {
-      font-family: 'PT Sans';
-      src: url('https://fonts.gstatic.com/s/ptsans/v18/jizfRExUiTo99u79B_mh4OynLD0Z4zM.woff2');
-      font-weight: 700;
-    }
-  
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <meta name="robots" content="index,follow"/>
+    <meta name="generator" content="GrapesJS Studio"/>
+    <meta name="description" content="EpiKos Zitio"/>
+    <meta name="keywords" content="fbi.gov cia.gov gov fbi cia"/>
+    <meta property="og:title" content="GRuPo EpiKo"/>
+    <meta property="og:description" content="EpiKos Zitio"/>
+    <meta property="og:image" content="https://cdn.grapesjs.com/workspaces/cmg1jfq7v0dmwjsx3dk0eokuk/assets/dd25c46c-f619-4fa2-b9cd-8c671ac51264__epiko.png"/>
+    <link rel="icon" href="https://cdn.grapesjs.com/workspaces/cmg1jfq7v0dmwjsx3dk0eokuk/assets/dd25c46c-f619-4fa2-b9cd-8c671ac51264__epiko.png"/>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        background: #111;
+        color: #d4af37;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        text-align: center;
+      }
 
-    @font-face {
-      font-family: 'PT Sans';
-      src: url('https://fonts.gstatic.com/s/ptsans/v18/jizaRExUiTo99u79P0COxOGMMDQ.woff2');
-      font-weight: 400;
-    }
-  
+      #iuewhr {
+        font-size: 3rem;
+        margin-bottom: 20px;
+      }
 
-    @font-face {
-      font-family: 'PT Sans';
-      src: url('https://fonts.gstatic.com/s/ptsans/v18/jizYRExUiTo99u79D0eExcOJIDQA-g.woff2');
-      font-style: italic;
-font-weight: 400;
-    }
-  
+      #iysjwx {
+        max-width: 300px;
+        margin-bottom: 20px;
+      }
 
-    @font-face {
-      font-family: 'PT Sans';
-      src: url('https://fonts.gstatic.com/s/ptsans/v18/jizdRExUiTo99u79D0e8fOytLR8c8zMrig.woff2');
-      font-style: italic;
-font-weight: 700;
-    }
-  
+      #ibgp6d {
+        color: #aaa;
+        margin-bottom: 30px;
+        line-height: 1.5;
+      }
 
-    @font-face {
-      font-family: Akshar;
-      src: url('https://fonts.gstatic.com/s/akshar/v17/Yq6V-LyHWTfz9rGyphRktOdClg.woff2');
-      font-weight: 300 700;
-    }
-  
+      #i8shdh {
+        background: transparent;
+        border: 1px solid #d4af37;
+        color: #d4af37;
+        padding: 10px 20px;
+        font-size: 1rem;
+        cursor: pointer;
+        transition: 0.3s;
+      }
 
-    @font-face {
-      font-family: 'Alegreya SC';
-      src: url('https://fonts.gstatic.com/s/alegreyasc/v26/taiTGmRtCJ62-O0HhNEa-ZZc-rU0Qqu2FXKD.woff2');
-      font-weight: 500;
-    }
-  
-
-    @font-face {
-      font-family: 'Alegreya SC';
-      src: url('https://fonts.gstatic.com/s/alegreyasc/v26/taiTGmRtCJ62-O0HhNEa-ZYU_LU0Qqu2FXKD.woff2');
-      font-weight: 700;
-    }
-  
-
-    @font-face {
-      font-family: 'Alegreya SC';
-      src: url('https://fonts.gstatic.com/s/alegreyasc/v26/taiTGmRtCJ62-O0HhNEa-ZYI_7U0Qqu2FXKD.woff2');
-      font-weight: 800;
-    }
-  
-
-    @font-face {
-      font-family: 'Alegreya SC';
-      src: url('https://fonts.gstatic.com/s/alegreyasc/v26/taiTGmRtCJ62-O0HhNEa-ZYs_rU0Qqu2FXKD.woff2');
-      font-weight: 900;
-    }
-  
-
-    @font-face {
-      font-family: 'Alegreya SC';
-      src: url('https://fonts.gstatic.com/s/alegreyasc/v26/taiOGmRtCJ62-O0HhNEa-a6t05E5abe_.woff2');
-      font-weight: 400;
-    }
-  
-
-    @font-face {
-      font-family: 'Alegreya SC';
-      src: url('https://fonts.gstatic.com/s/alegreyasc/v26/taiMGmRtCJ62-O0HhNEa-Z6q2ZAbbKe_DGs.woff2');
-      font-style: italic;
-font-weight: 400;
-    }
-  
-
-    @font-face {
-      font-family: 'Alegreya SC';
-      src: url('https://fonts.gstatic.com/s/alegreyasc/v26/taiRGmRtCJ62-O0HhNEa-Z6q4WEySKqUEGKDBz4.woff2');
-      font-style: italic;
-font-weight: 500;
-    }
-  
-
-    @font-face {
-      font-family: 'Alegreya SC';
-      src: url('https://fonts.gstatic.com/s/alegreyasc/v26/taiRGmRtCJ62-O0HhNEa-Z6q4Sk0SKqUEGKDBz4.woff2');
-      font-style: italic;
-font-weight: 700;
-    }
-  
-
-    @font-face {
-      font-family: 'Alegreya SC';
-      src: url('https://fonts.gstatic.com/s/alegreyasc/v26/taiRGmRtCJ62-O0HhNEa-Z6q4TU3SKqUEGKDBz4.woff2');
-      font-style: italic;
-font-weight: 800;
-    }
-  
-
-    @font-face {
-      font-family: 'Alegreya SC';
-      src: url('https://fonts.gstatic.com/s/alegreyasc/v26/taiRGmRtCJ62-O0HhNEa-Z6q4RE2SKqUEGKDBz4.woff2');
-      font-style: italic;
-font-weight: 900;
-    }
-  
-
-    @font-face {
-      font-family: 'Alfa Slab One';
-      src: url('https://fonts.gstatic.com/s/alfaslabone/v21/6NUQ8FmMKwSEKjnm5-4v-4Jh6dBretWvYmE.woff2');
-      font-weight: 400;
-    }
-  
-
-    @font-face {
-      font-family: 'Anton SC';
-      src: url('https://fonts.gstatic.com/s/antonsc/v1/4UaBrEBBsgltGn71sxLjzanB44N1.woff2');
-      font-weight: 400;
-    }
-  
-
-    @font-face {
-      font-family: 'Encode Sans SC';
-      src: url('https://fonts.gstatic.com/s/encodesanssc/v14/jVyT7nLwCGzQ9zE7ZyRg0QRXHOxS3AngeAXx.woff2');
-      font-weight: 100 900;
-    }
-  
-
-    @font-face {
-      font-family: 'BIZ UDPGothic';
-      src: url('https://fonts.gstatic.com/s/bizudpgothic/v15/hESq6X5pHAIBjmS84VL0Bue85skjZWQnTABCSQo.woff2');
-      font-weight: 700;
-    }
-  
-
-    @font-face {
-      font-family: 'BIZ UDPGothic';
-      src: url('https://fonts.gstatic.com/s/bizudpgothic/v15/hES36X5pHAIBjmS84VL0Bue83nAMQWkMUAk.woff2');
-      font-weight: 400;
-    }
-  
-
-    @font-face {
-      font-family: 'Special Gothic Condensed One';
-      src: url('https://fonts.gstatic.com/s/specialgothiccondensedone/v2/R70Njzwei_mJM7OsFDzX7EL9NBO6IPvd-Avolzh49w7PUZ5_5YtxbX8.woff2');
-      font-weight: 400;
-    }
-  
-
-    @font-face {
-      font-family: 'Special Gothic Expanded One';
-      src: url('https://fonts.gstatic.com/s/specialgothicexpandedone/v2/IurO6Zxk74-YaYk1r3HOet4g75ENmBxUmOK61tA0Iu5gmpt-KhUVvQ.woff2');
-      font-weight: 400;
-    }
-  
-
-    @font-face {
-      font-family: 'Intel One Mono';
-      src: url('https://fonts.gstatic.com/s/intelonemono/v2/P5sbzZuLY8Lb_G1RikFkwPjBvvkyD4tEBiLF.woff2');
-      font-weight: 300 700;
-    }
-  
-
-    @font-face {
-      font-family: 'Intel One Mono';
-      src: url('https://fonts.gstatic.com/s/intelonemono/v2/P5sZzZuLY8Lb_G1RikFkwPjBvsk1BYpmAzLFRQI.woff2');
-      font-style: italic;
-font-weight: 300 700;
-    }
-  
-
-    @font-face {
-      font-family: 'Libertinus Mono';
-      src: url('https://fonts.gstatic.com/s/libertinusmono/v1/_gPg1RnxrjY_TDm97ApTqwneJJFTpRF3YROW_w.woff2');
-      font-weight: 400;
-    }
-</style>
-  <link rel="stylesheet" href="./style.css">
+      #i8shdh:hover {
+        background: #d4af37;
+        color: #111;
+      }
+    </style>
   </head>
-  <body id="ij9wze"><div id="iuewhr">GRVPO EPIKO</div><img src="https://cdn.grapesjs.com/workspaces/cmg1jfq7v0dmwjsx3dk0eokuk/assets/dd25c46c-f619-4fa2-b9cd-8c671ac51264__epiko.png" id="iysjwx"/><div id="ibgp6d"> Grupo Epiko es
-      <br class="nl-desktop"/>una organizacion de Tacticas 
-      <br class="nl-desktop"/>Secretas Especiales ubicadas
-      <br class="nl-desktop"/>en Sudamerica.<div data-cke-filler-webkit="end" data-cke-temp="1" id="iaru42"> </div></div><button type="button" id="i8shdh">Acerca de nosotros</button></body>
+  <body id="ij9wze">
+    <div id="iuewhr">GRVPO EPIKO</div>
+    <img src="https://cdn.grapesjs.com/workspaces/cmg1jfq7v0dmwjsx3dk0eokuk/assets/dd25c46c-f619-4fa2-b9cd-8c671ac51264__epiko.png" id="iysjwx"/>
+    <div id="ibgp6d">
+      Grupo Epiko es<br class="nl-desktop"/>
+      una organizacion de Tacticas<br class="nl-desktop"/>
+      Secretas Especiales ubicadas<br class="nl-desktop"/>
+      en Sudamerica.
+    </div>
+    <button type="button" id="i8shdh">Acerca de nosotros</button>
+  </body>
 </html>
